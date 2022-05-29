@@ -1,0 +1,43 @@
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 40%;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.users div {
+  width: 400px;
+}
+
+.post__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.post__list button:nth-child(1) {
+  width: 130px;
+}
+
+.post__list button {
+  width: 80px;
+}
+
+.post {
+  width: 500px;
+  border: 1px solid teal;
+  margin: 10px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.post div {
+  cursor: pointer;
+}
